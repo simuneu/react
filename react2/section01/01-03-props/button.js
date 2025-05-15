@@ -1,0 +1,1 @@
+const UseBtn = <button>등록</button>
