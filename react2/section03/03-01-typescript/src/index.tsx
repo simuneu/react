@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Two from './routes/two';
 import One from './routes/one';
-import Board from './routes/board1.tsx';
+import Board from './routes/board1';
 import BoardRefactoring from './routes/board2-refactoring';
 
 const pageList = createBrowserRouter([
@@ -20,7 +20,7 @@ const pageList = createBrowserRouter([
 ])
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root') as ReactDOM.Container);
 root.render(<RouterProvider router={pageList}/>);
 
 // If you want to start measuring performance in your app, pass a function
