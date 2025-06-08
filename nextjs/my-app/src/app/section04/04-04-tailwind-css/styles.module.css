@@ -1,0 +1,9 @@
+.buttonStyle {
+  background-color: aliceblue;
+  /* @apply bg-color1 text-color2; */
+}
+.divStyle {
+  background-color: thistle;
+  width: 200px;
+  height: 200px;
+}
